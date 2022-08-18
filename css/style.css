@@ -946,6 +946,7 @@ input {
 }
 .dotts-down img  {
   top: 300px;
+  z-index: -1;
 }
 .events .container {
   display: flex;
@@ -1025,6 +1026,8 @@ input {
 .plans {
   padding: var(--main-padding);
   background-color: var(--section-background);
+  z-index: -1;
+  position: relative;
 }
 .plans .container {
   display: grid;
